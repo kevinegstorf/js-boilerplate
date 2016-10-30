@@ -1,0 +1,14 @@
+{
+  "name": "js-boilerplate",
+  "version": "1.0.0",
+  "description": "js-boilerplate",
+  "main": "index.js",
+  "author": "Kevin Egstorf",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "color": "^0.11.3"
+  }
+}

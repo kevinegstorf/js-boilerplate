@@ -11,7 +11,10 @@
     "extends": "airbnb",
     "plugins": [
       "import"
-    ]
+    ],
+    "env": {
+      "browser": true
+    }
   },
   "babel": {
     "presets": [
@@ -19,19 +22,26 @@
     ]
   },
   "devDependencies": {
+    "babel-loader": "^6.2.5",
     "babel-preset-latest": "^6.16.0",
     "del": "^2.2.2",
     "eslint": "^3.8.1",
     "eslint-config-airbnb": "^12.0.0",
-    "eslint-plugin-html": "^1.5.5",
     "eslint-plugin-import": "^2.0.1",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
     "eslint-plugin-react": "^6.4.1",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
-    "gulp-eslint": "^3.0.1"
+    "gulp-eslint": "^3.0.1",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.16.0"
   },
   "repository": "kevinegstorf/js-boilerplate",
   "author": "Kevin Egstorf",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.16.0"
+  }
 }

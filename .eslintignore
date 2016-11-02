@@ -1,2 +1,3 @@
 gulpfile.babel.js
 src/server/index.js
+src/test/client/state-test.js
